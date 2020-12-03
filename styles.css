@@ -1,0 +1,248 @@
+/* Created By Prasant ... */
+
+/* Thank you very much Shreyansh and Amardeep Bhai for helping me */
+
+
+
+html{
+
+    scroll-behavior: smooth;
+
+} 
+
+body {
+
+    background:linear-gradient(45deg, orange, red, #3f000f);
+
+    background-repeat:no-repeat ;
+
+    margin:0;
+
+    padding:6px;
+
+    background-clip:border-box;
+
+    height:100vh;
+
+    width:100%;
+
+    padding-bottom:0;
+
+    background-attachment:fixed;
+
+}
+
+#hide{
+
+    height:30vh;
+
+    opacity:1;
+
+    transition:3s;
+
+    background-image:linear-gradient(50deg, #000428, #004e92);
+
+    background-size:cover;
+
+    border-radius:10px;
+
+    box-shadow:5px 4px 7px grey;
+
+    transition:3s;
+
+    font-family: 'Courgette', cursive;
+
+  /*  position:relative;
+
+    top:3hv;
+
+    left:3vw; */
+
+}
+
+#show{
+
+    opacity:0;
+
+    transition:3s;
+
+    background-image:linear-gradient(60deg, yellow, orange, red);
+
+    border-radius:10px;
+
+    box-shadow:5px 4px 7px grey;
+
+    pointer-events: none;
+
+    transition:3s;
+
+    font-family: 'Courgette', cursive;
+
+}
+
+#hide input{
+
+  /*  background:linear-gradient(50deg, #7b4397, #dc2430); */
+
+    background:transparent;
+
+    background-size:cover;
+
+    transition:3s;
+
+    height:10vh;
+
+    width:80vw;
+
+    border-radius:10px;
+
+    color:white;
+
+    outline:none;
+
+    border-left:0;
+
+    border-top:0;
+
+    border-right:0;
+
+    border-bottom:1px solid #999;
+
+    
+
+}
+
+#hide input:hover{
+
+    background:linear-gradient(50deg, #8e0e00, #1f1c18);
+
+    
+
+}
+
+#show input{
+
+   /* background:linear-gradient(50deg, #7b4397, #dc2430); */
+
+    background:transparent;
+
+    background-size:cover;
+
+    transition:3s;
+
+    height:10vh;
+
+    width:70vw;
+
+    border-radius:10px;
+
+    color:white;
+
+    outline:none;
+
+    border-left:0;
+
+    border-top:0;
+
+    border-right:0;
+
+    border-bottom:1px solid #999;
+
+}
+
+#show input:hover{
+
+    background:linear-gradient(50deg, #8e0e00, #1f1c18);
+
+    
+
+}
+
+#thank{
+
+    position:absolute ;
+
+    top:1vh;
+
+    font-family:cursive;
+
+    left:10vh;
+
+    opacity:0; 
+
+    text-shadow:2px 3px 4px grey;
+
+    pointer-events: none;
+
+    transition:3s;
+
+}
+
+#inst{
+
+    position:absolute ;
+
+    top:13vh;
+
+    font-family:cursive;
+
+    right:10vh;
+
+    opacity:0; 
+
+    text-shadow:2px 3px 4px grey;
+
+    pointer-events: none;
+
+    transition:3s;
+
+}
+
+#last{
+
+    position:absolute ;
+
+    top:15vh;
+
+    font-family:cursive;
+
+    right:10vh;
+
+    opacity:0; 
+
+    text-shadow:2px 3px 4px grey;
+
+    pointer-events: none;
+
+    transition:3s;
+
+    font-size:20px;
+
+}
+
+legend{
+
+    color:white;
+
+    font-size:20px;
+
+    font-family: 'Sriracha', cursive;
+
+}
+
+#data1{
+
+    position:relative  ;
+
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+#demo{
+
+    position:relative ;
+
+    font-family: 'Kaushan Script', cursive;
+
+}
+
